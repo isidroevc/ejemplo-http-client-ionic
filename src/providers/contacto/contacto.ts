@@ -10,7 +10,7 @@ import { Contacto } from '../../schemas/contacto';
 */
 @Injectable()
 export class ContactoProvider {
-  private urlBase:string = 'http://localhost:3000/api/contactos/'
+  private urlBase:string = 'http://192.168.137.175:3000/api/contactos/'
   constructor(public http: HttpClient) {
 
   }
